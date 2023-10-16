@@ -1,0 +1,24 @@
+site_name: Hyperledger中文文档
+site_url: https://fudongguang.github.io/qrcode/
+repo_url: https://fudongguang.github.io/qrcode/
+site_description: 'HyperLedger中文文档'
+
+site_author: Hyperledger国际化工作组
+copyright: Hyperledger国际化工作组(yls@chainnova.com)
+
+theme: readthedocs
+
+pages:
+    - 欢迎: index.md
+    - 欢迎1: a.md
+
+markdown_extensions:
+  - extra
+  - tables
+  - toc:
+      permalink: True
+  - fenced_code
+  - smarty
+  - mdx_math:
+      enable_dollar_delimiter: True
+  - footnotes
